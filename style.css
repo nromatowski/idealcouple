@@ -1,0 +1,71 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/02/182518/8854ad3013a3ae7072656c43ec1a568b.jpg");
+  background-size: cover;
+}
+
+.topText {
+  position: absolute;
+  top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefefe;
+}
+
+.colorBtn {
+  position: absolute;
+  left: 21%;
+  top: 14rem;
+  padding: 0.1rem 0.5rem;
+  border: 2px solid #fefefe;
+  border-radius: 5px;
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+.colorBtn:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.rightBtn {
+  position: absolute;
+  left: 71%;
+  top: 14rem;
+  padding: 0.1rem 0.5rem;
+  border: 2px solid #fefefe;
+  border-radius: 5px;
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+.rightBtn:hover {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.girls {
+  position: absolute;
+  left: 25%;
+  top: 18rem;
+  transform: translateX(-50%);
+  height: 30rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.boys {
+  position: absolute;
+  left: 75%;
+  top: 18rem;
+  transform: translateX(-50%);
+  height: 30rem;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
