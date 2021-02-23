@@ -16,6 +16,15 @@ body {
   color: #fefefe;
 }
 
+.bottomText {
+  position: absolute;
+  top: 48rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefefe;
+}
+
 .colorBtn {
   position: absolute;
   left: 21%;
@@ -36,20 +45,20 @@ body {
 
 .rightBtn {
   position: absolute;
-  left: 71%;
-  top: 14rem;
-  padding: 0.1rem 0.5rem;
-  border: 2px solid #fefefe;
+  top: 13rem;
+  height: 4rem;
+  width: 15rem;
+  border: 2px solid white;
   border-radius: 5px;
   color: #fefefe;
-  background: rgba(0, 0, 0, 0.6);
   font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.6);
   text-transform: capitalize;
   cursor: pointer;
   outline: none;
 }
 .rightBtn:hover {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.685);
 }
 
 .girls {
